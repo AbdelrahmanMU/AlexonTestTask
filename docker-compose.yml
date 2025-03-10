@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  alexontesttask.api:
-    image: ${DOCKER_REGISTRY-}alexontesttaskapi
+  ExperimentsDemo.api:
+    image: ${DOCKER_REGISTRY-}ExperimentsDemoapi
     build:
       context: .
-      dockerfile: AlexonTestTask\Dockerfile
+      dockerfile: ExperimentsDemo\Dockerfile

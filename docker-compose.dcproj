@@ -7,7 +7,7 @@
     <ProjectGuid>6e7793c3-cd62-4355-b067-1661f9f6127a</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://{ServiceIPAddress}{ServicePort}/swagger</DockerServiceUrl>
-    <DockerServiceName>alexontesttask.api</DockerServiceName>
+    <DockerServiceName>ExperimentsDemo.api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">
